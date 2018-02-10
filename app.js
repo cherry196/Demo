@@ -13,6 +13,7 @@ app.get('/' ,function(req,res){
   res.render('home');//Response Hello World
 });
 
-app.listen(config.port, function() {
-console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
+const port = process.env.PORT || 3000
+app.listen(port, function() {
+console.log('Express server running on '+port);
 } )
