@@ -1,0 +1,16 @@
+{
+  "name": "nodekb",
+  "version": "1.0.0",
+  "description": "Simple NodeJS App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Sai Charan K",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
