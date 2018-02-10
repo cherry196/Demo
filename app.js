@@ -9,7 +9,7 @@ app.engine('html', require('ejs').renderFile);
 
 app.set('view engine','html')
 //Get request matching '/'
-app.get('/' ,function(req,res){
+app.get('/home' ,function(req,res){
   res.render('home');//Response Hello World
 });
 
