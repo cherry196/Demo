@@ -13,6 +13,6 @@ app.get('/' ,function(req,res){
   res.render('home');//Response Hello World
 });
 
-app.listen(8080, function() {
-  console.log("Demo App listening on port 8080")
+app.listen(config.port, function() {
+console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
 } )
