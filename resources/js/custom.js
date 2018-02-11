@@ -5,7 +5,7 @@ $("#btn-chat").unbind('click').click(function(){
   )
   $("#btn-input").val('');
    $.ajax({
-    url:window.location.href,
+    url:'http://localhost:8080/',
     type:'POST',
     data : msg,
     success:function(result){
